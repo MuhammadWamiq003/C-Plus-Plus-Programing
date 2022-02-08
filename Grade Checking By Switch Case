@@ -1,4 +1,4 @@
-#include <iostream> 
+#include <iostream>  //standard i/o header file
 using namespace std; 
 int main() 
 { 
@@ -7,7 +7,7 @@ int main()
 	cin>>grade;
 	switch (grade)
 { 
-        case 'A': case 'a':
+        case 'A': case 'a': // if the user type these letters the code will give output, output depends on the letter use in case condition
 	            cout<<"Your average must be between 90 – 100";
             	break;
               
