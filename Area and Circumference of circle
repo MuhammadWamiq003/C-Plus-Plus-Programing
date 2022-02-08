@@ -1,4 +1,4 @@
-#include <iostream>
+#include <iostream> //standard i/o header file
 using namespace std;
 int main()
 {
@@ -10,8 +10,8 @@ int main()
 	cin>>b;
 	cout<<"Enter radius of circle ";
 	cin>>r;
-	A=l*b;
+	A=l*b; // Formula of Area Of Square
 	cout<<"Area of a Square "<<A<<endl;
-	C=3.14*r*r;
+	C=3.14*r*r; // Formula of circumference of circle
 	cout<<"circumference of a circle "<<C<<endl;
 	return 0;
