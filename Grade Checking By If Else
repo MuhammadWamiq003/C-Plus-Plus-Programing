@@ -6,7 +6,7 @@ int main()
   cout<<"Enter your grade:"<<endl;
   cin>>grade;
   
-        if (grade=='A'|| grade=='a')
+        if (grade=='A'|| grade=='a') //if the user type letter either in capital or in small then it will give output that given in other lines  
              cout<<"Your average must be between 90 – 100"<<endl;
   
        else if (grade=='B' || grade=='a')
