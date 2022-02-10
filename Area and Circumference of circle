@@ -2,16 +2,24 @@
 using namespace std;
 int main()
 {
-	int A,l,b,r;
-	float C;
-	cout<<"Enter lenght of square ";
-	cin>>l;
-	cout<<"Enter breath of square ";
-	cin>>b;
-	cout<<"Enter radius of circle ";
-	cin>>r;
+	int A,l,b,r; //initilization for integer
+	float C; //initilization for float
+	
+	cout<<"Enter lenght of square "; //shows output to take user input
+	cin>>l; //take input from user
+	
+	cout<<"Enter breath of square "; //shows output to take user input
+	cin>>b; //take input from user
+	
+	cout<<"Enter radius of circle "; //shows output to take user input
+	cin>>r; //take input from user
+	
 	A=l*b; // Formula of Area Of Square
-	cout<<"Area of a Square "<<A<<endl;
+	
+	cout<<"Area of a Square "<<A<<endl; //shows answer of area of square on output's screen
+	
 	C=3.14*r*r; // Formula of circumference of circle
-	cout<<"circumference of a circle "<<C<<endl;
+	
+	cout<<"circumference of a circle "<<C<<endl;  //shows answer of circumference of circle on output's screen
+	
 	return 0;
