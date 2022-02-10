@@ -2,22 +2,25 @@
 using namespace std; 
 int main() 
 { 
-   char grade;
-  cout<<"Enter your grade:"<<endl;
-	cin>>grade;
+   char grade; //initilization char
+   
+   	cout<<"Enter your grade:"<<endl; //shows output to take grade
+	cin>>grade; //take input from user
+	
 	switch (grade)
 { 
-        case 'A': case 'a': // if the user type these letters the code will give output, output depends on the letter use in case condition
+// if the user type these letters the code will give output, output depends on the letter use in case condition
+        case 'A': case 'a': 
 	            cout<<"Your average must be between 90 – 100";
-            	break;
+              	    break;
               
 	      case 'B': case 'b':
 	            cout<<"Your average must be between 80 - 89";
-             	break;
+             	    break;
               
 	      case 'C': case 'c':
            	 cout<<"Your average must be between 70 - 79";
-	           break;
+	         break;
              
 	      case 'D': case 'd':
            	 cout<<"Your average must be between 60 - 69";
