@@ -1,0 +1,18 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	int a,b,c,d,e,f,g,h,i;
+	cout<<"Enter value of a: ";
+	cin>>a;
+	b=a/10;
+	c=a%10;
+	d=b/10;
+	e=b%10;
+	f=d/10;
+	g=d%10;
+	h=f/10;
+	i=f%10;
+	cout<<c<<e<<g<<i<<h;
+	return 0;	
+}
