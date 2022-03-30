@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int temp1;
+	float F,C;
+	cout<<"Give temp: ";
+	cin>>F;
+	temp1=F-32;
+	C=5*temp1/9;
+	cout<<"Temp in Centigrade is : "<<C;
+	return 0;
+}
