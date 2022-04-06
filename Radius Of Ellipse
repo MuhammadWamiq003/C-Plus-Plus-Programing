@@ -1,0 +1,34 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	//To Find Radius of ELLIPSE
+	float y,a,x,h,k,b,c,r;
+	cout<<"Enter x cord of parabola: ";
+	cin>>x;
+	cout<<"Enter y cord of parabola: ";
+	cin>>y;
+	cout<<"Enter focus(a,b): ";
+	cin>>a>>b;
+	cout<<"Enter Vertex(h,k): ";
+	cin>>h>>k;
+	r=(((x-h)*(x-h))/(a*a))+(((y-k)*(y-k))/(b*b));
+	cout<<"Y-cord of Parabola is: "<<r<<endl;
+		if(r==0)
+		{
+			cout<<"The Y-cord in on x-axis"<<endl;
+		}
+		else if(r>0)
+		{
+			cout<<"The Y-cord is above x-axis"<<endl;
+		}
+		else if(r<0)
+		{
+			cout<<"The Y-cord is below the x-axis"<<endl;
+		}
+		else
+		{
+			cout<<"Something Wrong Happened";
+		}
+	return 0;
+}
