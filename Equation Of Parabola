@@ -1,0 +1,34 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	//To Find Y-cordinate of PARABOLA
+	float y,a,x,h,k,b,c;
+	cout<<"Enter x cord of parabola: ";
+	cin>>x;
+	cout<<"Enter focus: ";
+	cin>>a;
+	cout<<"Enter Vertex(h,k): ";
+	cin>>h>>k;
+	b=(x-h);
+	c=b*b;
+	y=a*c+k;
+	cout<<"Y-cord of Parabola is: "<<y<<endl;
+		if(y==0)
+		{
+			cout<<"The Y-cord in on x-axis"<<endl;
+		}
+		else if(y>0)
+		{
+			cout<<"The Y-cord is above x-axis"<<endl;
+		}
+		else if(y<0)
+		{
+			cout<<"The Y-cord is below the x-axis"<<endl;
+		}
+		else
+		{
+			cout<<"Something Wrong Happened";
+		}
+	return 0;
+}
