@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int mfr,mrn;
+	cout<<"Enter My Roll Number: ";
+	cin>>mrn;
+	cout<<"Enter My Friend Roll Number: ";
+	cin>>mfr;
+	(mrn<mfr)?(cout<<"My roll number is lesser"):(cout<<"My friend roll number is lesser");
+	
+	return 0;
+	
+}
