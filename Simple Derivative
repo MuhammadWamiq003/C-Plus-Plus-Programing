@@ -1,0 +1,30 @@
+#include <iostream>
+#include <cstring>
+using namespace std;
+int main()
+{
+	string a;
+	cout<<"Enter The simple trignometric function: ";
+	cin>>a;
+		if(a=="sinx")
+			{
+				cout<<"The derivative of function is 'cosx'";
+			}
+		else if(a=="cosx")
+			{
+				cout<<"The derivative of function is '-sinx'";
+			}
+		else if(a=="tanx")
+			{
+				cout<<"The derivative of function is 'sec^2'";
+			}	
+		else if(a=="secx")
+			{
+				cout<<"The derivative of function is 'secxtanx'";
+			}
+		else
+			{
+				cout<<"Wrong function";
+			}
+	return 0;
+}
